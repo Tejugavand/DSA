@@ -8,19 +8,23 @@ public class forloopprimeno {
     
         System.out.println("enter the number");
         n= sc.nextInt();
-        for(i=2;i<n;i++){
-            
+        int sum=0;
+        for(i=1;i<n;i++){
             if(n%i==0){
-                //System.out.println("not prime ");
-                continue;
-            }
-            else{
-                System.out.println("prime");
+                sum++;
+
             }
         }
-        System.out.println();
+        if(sum==2){
+            System.out.println("prime number");
+        }
+        else{
+            System.out.println("not prime number");
+        }
+
         
-        
-    
-}
+
+
+            
+            }
 }
