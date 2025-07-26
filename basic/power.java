@@ -4,11 +4,6 @@ public class power {
     public static void main(String args[]){
         int base,exponant;
         int i;
-        
-    
-        
-
-    
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the base");
         base = sc.nextInt();
