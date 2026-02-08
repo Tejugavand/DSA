@@ -17,9 +17,9 @@ public class whileloopautomarphic {public static void main(String[] args) {
         int flage=0;
         while(n>0){
             rem=n%10;
-            square=square%10;
+            
 
-            if(rem!=square){
+            if(rem!=square%10){
                 flage=1;
                 break;
             }

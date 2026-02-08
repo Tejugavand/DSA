@@ -14,6 +14,8 @@ public class positive {
 
         boolean positive=num(a);
         System.out.println("number is possitive:"  +positive);
+        sc.close();
+        
     }
     
 }

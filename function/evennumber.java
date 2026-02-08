@@ -9,6 +9,7 @@ public class evennumber {
 
     public static boolean num1(int a){
         return a%2!=0;
+        
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -21,6 +22,7 @@ public class evennumber {
 
         boolean odd=num1(a);
         System.out.println("number is odd:" +odd);
+        sc.close();
 
 
     

@@ -21,6 +21,7 @@ public class factorofnumber {
         int n=sc.nextInt();
 
         int result=factor(n);
+        sc.close();
         
     }
     }

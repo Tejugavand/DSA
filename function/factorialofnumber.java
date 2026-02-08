@@ -19,6 +19,7 @@ public class factorialofnumber {
 
         int result=factorial(n);
         System.out.println("number is :" +result);
+        sc.close();
     }
     }
 

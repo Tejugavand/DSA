@@ -25,5 +25,6 @@ public class power {
 
         int power1=num(base,exponant);
         System.out.println("power is" +power1);
+        sc.close();
 }
 }

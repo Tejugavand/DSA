@@ -25,7 +25,7 @@ public class sqaurenumber {
 
         int cube=num1(a);
         System.out.println("area of cube:" +cube);
-
+        sc.close();
 
         
     }
